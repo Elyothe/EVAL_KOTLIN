@@ -51,6 +51,85 @@ Par où commencer...
 
   - Par manque de temps, je n'ai malheureusement pas mis en place le choix des langues...
 
-10.La fin
+10. L'arborescence
+
+    Directory structure:
+└── Elyothe-EVAL_KOTLIN
+    ├── gradle.properties
+    ├── gradlew.bat
+    ├── gradle
+    │   ├── libs.versions.toml
+    │   └── wrapper
+    │       ├── gradle-wrapper.jar
+    │       └── gradle-wrapper.properties
+    ├── settings.gradle.kts
+    ├── gradlew
+    ├── README.md
+    ├── build.gradle.kts
+    └── app
+        ├── .gitignore
+        ├── proguard-rules.pro
+        ├── build.gradle.kts
+        └── src
+            ├── main
+            │   ├── AndroidManifest.xml
+            │   ├── java
+            │   │   └── com
+            │   │       └── example
+            │   │           └── kotlin_eval
+            │   │               ├── domain
+            │   │               │   └── models
+            │   │               │       └── Character.kt
+            │   │               ├── components
+            │   │               │   └── BtnBack.kt
+            │   │               ├── data
+            │   │               │   ├── mocks
+            │   │               │   │   └── MockCharacters.kt
+            │   │               │   ├── repositories
+            │   │               │   │   ├── CharacterRepositoryImpl.kt
+            │   │               │   │   └── CharacterRepository.kt
+            │   │               │   └── datasource
+            │   │               │       ├── RetrofitInstance.kt
+            │   │               │       └── ApiService.kt
+            │   │               ├── ui
+            │   │               │   ├── viewmodels
+            │   │               │   │   └── CharacterViewModel.kt
+            │   │               │   ├── screens
+            │   │               │   │   ├── HomeScreen.kt
+            │   │               │   │   └── DetailsScreen.kt
+            │   │               │   ├── theme
+            │   │               │   │   ├── Theme.kt
+            │   │               │   │   ├── Type.kt
+            │   │               │   │   └── Color.kt
+            │   │               │   └── Routes.kt
+            │   │               └── MainActivity.kt
+            │   └── res
+            │       
+            │       ├── raw
+            │       │   └── click.mp3
+            │       ├── mipmap-xhdpi
+            │       │   ├── ic_launcher.webp
+            │       │   └── ic_launcher_round.webp
+            │       ├── values-night
+            │       │   └── color.xml
+            │       └── values
+            │           ├── strings.xml
+            │           ├── themes.xml
+            │           └── colors.xml
+            ├── test
+            │   └── java
+            │       └── com
+            │           └── example
+            │               └── kotlin_eval
+            │                   └── ExampleUnitTest.kt
+            └── androidTest
+                └── java
+                    └── com
+                        └── example
+                            └── kotlin_eval
+                                └── ExampleInstrumentedTest.kt
+
+
+11.La fin
 
   - À l'heure où j'écris ces lignes, il est 22h50, je crois que je ne pourrai aller plus loin... Ce fut un plaisir... Adieu...
