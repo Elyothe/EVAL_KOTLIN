@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.evaluation"
-    compileSdk = 34
+    namespace = "com.example.kotlin_eval"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.evaluation"
+        applicationId = "com.example.kotlin_eval"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -70,4 +70,16 @@ dependencies {
     //ajout config navigation
     val nav_version = "2.8.4"
     implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation("io.coil-kt:coil-compose:2.3.0")
+    implementation("androidx.core:core-ktx:1.15.0")
+
+
+
+
+
+
 }

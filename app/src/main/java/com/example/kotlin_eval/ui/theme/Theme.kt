@@ -1,4 +1,4 @@
-package com.example.evaluation.ui.theme
+package com.example.kotlin_eval.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun EVALUATIONTheme(
+fun KOTLIN_EVALTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

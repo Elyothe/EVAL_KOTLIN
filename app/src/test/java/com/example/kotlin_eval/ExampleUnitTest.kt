@@ -1,4 +1,4 @@
-package com.example.evaluation
+package com.example.kotlin_eval
 
 import org.junit.Test
 

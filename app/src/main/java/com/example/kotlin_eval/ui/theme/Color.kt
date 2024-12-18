@@ -1,4 +1,4 @@
-package com.example.evaluation.ui.theme
+package com.example.kotlin_eval.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

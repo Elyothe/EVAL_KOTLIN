@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00FFC6</color>
+    <color name="primaryVariant">#00D6A3</color>
+    <color name="secondary">#FF0266</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1F1F1F</color>
+    <color name="error">#CF6679</color>
+    <color name="onPrimary">#000000</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onBackground">#FFFFFF</color>
+    <color name="onSurface">#FFFFFF</color>
+    <color name="onError">#000000</color>
+</resources>

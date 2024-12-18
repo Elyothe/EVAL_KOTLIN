@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EVALUATION"
+rootProject.name = "KOTLIN_EVAL"
 include(":app")
  
